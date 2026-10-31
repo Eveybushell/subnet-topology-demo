@@ -39,6 +39,8 @@
           +------------------------+  +------------------------+
 
 ### Setup and Execution Guide:
+Important! Make sure Docker is running
+Do not run in Powershell. Recommended to run in Bash
 build: docker compose up -d
 verify status: docker compose ps
 verify subnet isolation: curl http://localhost/3000
